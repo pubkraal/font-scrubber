@@ -16,7 +16,7 @@ for (let fileofinterest of filesOfInterest) {
     var options = {
       hostname: 'hack-collect-dev.bynder.io',
       port: 443,
-      path: '/hackpackage',
+      path: '/statistics',
       method: 'POST',
     };
     var req = http.request(options, function(res) {
