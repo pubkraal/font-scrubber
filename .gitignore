@@ -1,0 +1,12 @@
+.idea
+.vscode
+node_modules/
+.DS_*
+._.DS_*
+build/
+dist/
+flow-typed/
+reports/
+npm-debug.log
+coverage/
+.*.swp
