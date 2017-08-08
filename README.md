@@ -17,11 +17,11 @@ Never `curl | bash`. Or you deserve it.
 ## Usage (ES6+)
 
 ```js
-// load dependency.
-import { scrubFontName } from 'font-scrubber';
+// Load dependency.
+import scrubFontName from 'font-scrubber';
 
 // Make sure this font is acceptable.
-let goodFont = scrubFontName("'Comic Sans MS'")
+let goodFont = scrubFontName("'Comic Sans MS'");
 ```
 
 ## Warning!
