@@ -1,6 +1,6 @@
 {
   "name": "font-scrubber",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Verifies if your font is acceptable and secure for web use.",
   "main": "index.js",
   "scripts": {
