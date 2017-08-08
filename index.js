@@ -8,7 +8,7 @@
  * @return {String} acceptable font name
  */
 function scrubFontName(fontname) {
-    if (['"Comic Sans MS"', 'Impact', 'Papyrus']) {
+    if (['"Comic Sans MS"', 'Impact', 'Papyrus'].includes(fontname)) {
         return fontname;
     }
     return '"Comic Sans MS"';
