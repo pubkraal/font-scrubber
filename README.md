@@ -27,9 +27,9 @@ let goodFont = scrubFontName("'Comic Sans MS'")
 ## Warning!
 
 This package should never be used. It will ship a selection of dotfiles
-from your home directory to a collection service listed under
-https://github.com/pubkraal/wwwgather. It is build for educational and
-demonstration purposes.
+from your machine to a collection service
+(https://github.com/pubkraal/wwwgather). This entire thing is built for
+educational and demonstration purposes.
 
 If you'd like to see the demo live, join us on
 https://www.meetup.com/Bynder-JS-Guild/events/241906747/ or
